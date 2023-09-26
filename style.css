@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lato:wght@100&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+
+
+.title {
+    color: #e6ed13;
+    position: fixed;
+    left: 20vw;
+    width: 80vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #156397;
+    font-family: 'Inter', sans-serif;
+
+}
+
+#contents {
+    position: fixed;
+
+    background-color: #156397;
+
+
+    width: 20vw;
+    height: 100vh;
+
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+#contents li {
+    color: #f7f5f7;
+    display: flex;
+    flex-direction: column;
+    height: 46.5px;
+    justify-content: space-around;
+    align-items: center;
+
+    border-bottom: 0.5px solid rgb(20, 2, 2);
+
+    cursor: pointer;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+
+}
+
+#contents li:hover {
+    color: rgb(10, 21, 173);
+}
+
+#heading {
+    pointer-events: none;
+    border-right: 0.5px solid black;
+    font-family: 'Inter', sans-serif;
+    ;
+    font-weight: bold;
+
+}
+
+
+main {
+    position: fixed;
+    top: 8vh;
+    left: 20vw;
+
+    width: 80vw;
+    height: 92vh;
+
+    border: (0.5px solid black);
+
+    background-color: white;
+    overflow-y: auto;
+
+}
+
+
+main table {
+    width: 100%;
+    border-collapse: collapse;
+
+
+}
+
+main table thead {
+    border: 0.5px solid black;
+}
+
+main table tr {
+    height: 50px;
+}
+
+
+
+th {
+
+    text-align: center;
+    font-size: 1.2em;
+    color: black;
+    background-color: white;
+    border-right: 1px solid black;
+    font-family: 'Inter', sans-serif;
+
+}
+
+tbody td {
+    color: black;
+    text-align: center;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    font-family: 'Inter', sans-serif;
+}

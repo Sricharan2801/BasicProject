@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="title">
+        <h1>FOOD ITEM DETAILS</h1>
+    </div>
+
+    <div id="contents">
+
+        <ul>
+            <li id="heading"> <b>CONTENTS</b> </li>
+            <li onclick="foodItems()">All Food Items</li>
+            <li onclick="foodItems('Vegetable')">Vegetables </li>
+            <li onclick="foodItems('Fruit')">Fruits</li>
+            <li onclick="foodItems('Protein')">Protein Food</li>
+            <li onclick="foodItems('Nuts')">Nuts</li>
+            <li onclick="foodItems('Grain')">Grains</li>
+            <li onclick="foodItems('Dairy')">Dairy</li>
+            <li onclick="calorieSort('above100')">Calorie above 100</li>
+            <li onclick="calorieSort('below100')">Calorie below 100 </li>
+            <li onclick="pro_cab_sort('protien')">Protein Content High to low</li>
+            <li onclick="pro_cab_sort('cab')">Cab content low to High</li>
+        </ul>
+
+    </div>
+
+    <main>
+        <table>
+
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Food Name</th>
+                    <th>Calories</th>
+                    <th>Category</th>
+                    <th>Proteins</th>
+                    <th>Cab</th>
+                </tr>
+            </thead>
+
+
+            <tbody> </tbody>
+
+
+        </table>
+    </main>
+
+    <script src="script.js"></script>
+
+    
+</body>
+
+</html>
